@@ -1,12 +1,12 @@
-"use client";
-import React, { useTransition, useState } from "react";
-import Image from "next/image";
+'use client';
+import React, { useTransition, useState } from 'react';
+import Image from 'next/image';
 import TabButton from "./TabButton";
 
 const TAB_DATA = [
   {
-    title: "Skills",
-    id: "skills",
+    title: 'Skills',
+    id: 'skills',
     content: (
       <ul className="list-disc pl-2">
         <li>ReactJs</li>
